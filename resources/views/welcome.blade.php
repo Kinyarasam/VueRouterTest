@@ -23,12 +23,12 @@
     <body >
         <div id="app">
             {{-- <h3> --}}
-                <li><router-link to="/test">VueRouterTest</router-link> </li>
+                <li><router-link to="/testa">VueRouterTest</router-link> </li>
                 <router-link to="/test"> test </router-link>
 
             {{-- </h3> --}}
             <router-view></router-view>
         </div>
-        <script src="/js/app.js"></script>   
+        <script src={{ asset('js/app.js') }}></script>   
     </body>
 </html>
